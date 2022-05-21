@@ -6,7 +6,7 @@ import math
 
 def permutations_calc():
     '''
-    Return number of possible permutations.
+    Return number of possible permutations and combinations.
 
     Parameters
     ----------
@@ -19,6 +19,8 @@ def permutations_calc():
     -------
     permutations : int 
                    Number of possible permutations.
+    combinations : int
+                   Number of possible combinations.
 
     '''
     
@@ -44,6 +46,7 @@ def permutations_calc():
     print('{} possible combinations'.format(combinations))
 
     return permutations
+    return combinations
 
 permutations_calc()
 
